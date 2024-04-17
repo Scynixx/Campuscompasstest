@@ -1,0 +1,173 @@
+/* Room 202 Page */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+header, footer {
+  background-color: #08549c; 
+  color: white; 
+  padding: 10px;
+  text-align: left;
+  width: 100%;
+  position: relative;
+}
+
+h1#header-text {
+  background-color: #08549c; 
+  color: white; 
+  padding: 10px 10px;
+  border-radius: 5px;
+  z-index: 1;
+  margin-left: 105px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-top: 6px;
+}
+
+h1#header-text a {
+  text-decoration: none;
+  color: rgb(234, 235, 233); 
+}
+
+nav, #welcome-message {
+  text-align: center;
+  position: relative; 
+  color: rgb(235, 235, 26); 
+}
+
+nav ul, #college-name {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: white; 
+}
+
+nav {
+  text-align: center; 
+}
+
+nav ul {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline; 
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  color: white;
+}
+
+nav ul li a:hover {
+  background-color: yellow;
+  color: #08549c; 
+}
+
+/* Start Screen */
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  position: relative; 
+}
+
+#logo {
+  position: absolute; 
+  top: 10px; 
+  left: 20px; 
+  width: 100px;
+}
+
+#welcome-message {
+  background-color: #08549c00;
+  color: rgb(247, 222, 1);
+  padding: 20px;
+  margin-top: 100px;
+  font-size: 55px;
+  text-align: center;
+  max-width: 80%;
+  margin-left: auto; 
+  margin-right: auto;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  -webkit-text-stroke-width: 3.5px;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center; 
+  padding: 10px;
+}
+
+#touch-screen {
+  font-size: 18px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: #08549c;
+  border-radius: 5px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+h2{
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+}
+
+td{
+  font-size: 12px;
+}
+
+/* 3 lines nav */
+.floor-navigation {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 9999;
+}
+
+.floor-navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.floor-navigation li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.floor-navigation a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+/* Add the following style for menu icon */
+.menu-icon {
+  display: none; /* Hide the menu icon on this page */
+}
+
+/* Add the following style for sliding navigation */
+.side-menu {
+  display: none; /* Hide the side menu on this page */
+}
